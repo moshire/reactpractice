@@ -1,15 +1,18 @@
 import React from "react";
 
-import Nav from "./Nav";
-import Main from "./Main";
-import Footer from "./Footer";
+
 function App() {
   return (
     <div>
-      <Nav />
-      <Main />
-      <Footer />
-    </div>
+      <h1>TO DO APP</h1>
+      <input type="checkbox" ></input>
+      <label> I have a car</label><br></br>
+  <input type="checkbox"></input>
+     <label for="vehicle2"> I have a car</label><br></br>
+  <input type="checkbox" id="vehicle3"></input>
+  <label for="vehicle3"> I have a boat</label>
+  </div>
+    
   );
 }
 export default App;
