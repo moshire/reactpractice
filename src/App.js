@@ -2,17 +2,20 @@ import React from "react";
 
 
 function App() {
-  return (
-    <div>
-      <h1 className="todo">TO DO APP</h1>
-      <input type="checkbox" id="vehicle1"></input>
-      <label className="car"> I have a car</label><br></br>
-      <input type="checkbox" id="vehicle2"></input>
-      <label for="vehicle2"> I have a car</label><br></br>
-     <input type="checkbox" id="vehicle3"></input>
-     <label for="vehicle3"> I have a boat</label>
-     </div>
-    
-  );
+ const date = new Date()
+ const hours = date.getHours()
+ let timeOfDay
+ if(hours < 12){
+   timeOfDay = ("morning")
+ }
+ else if(hours > 12 && hours < 17){
+timeOfDay = ("Afternoon")
+ }
+ else{
+   timeOfDay = ("Night")
+ }
+ return(
+ <h1>Good{timeOfDay}!</h1>
+ )
 }
 export default App;
