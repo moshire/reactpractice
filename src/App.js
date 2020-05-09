@@ -1,8 +1,14 @@
 import React from "react";
-import TodoItem from "./TodoItem"
-function App(){
-  return(
-    <TodoItem />
-  )
+import TodoItem from "./TodoItem";
+function App() {
+  return (
+    <div>
+      <h1>TODO APPLICATION</h1>
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+    </div>
+  );
 }
 export default App;
