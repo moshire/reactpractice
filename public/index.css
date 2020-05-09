@@ -1,4 +1,4 @@
-.todo{
+h1{
     height: 200px;
     background-color: #333;
     color: whitesmoke;
@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
 }
-.car{
-    background-color: aqua;
+.text{
+    background-color:lightgray;
+    font-size: 25px;
 }
